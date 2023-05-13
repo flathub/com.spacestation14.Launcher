@@ -8,7 +8,9 @@
     <url type="homepage">https://spacestation14.io/</url>
     <url type="donation">https://www.patreon.com/spacestation14</url>
     <url type="help">https://wiki.spacestation14.io/wiki/Main_Page</url>
+    <url type="contact">https://spacestation14.io/about/contact/</url>
     <url type="bugtracker">https://github.com/space-wizards/space-station-14/issues</url>
+    <url type="contribute">https://github.com/space-wizards/space-station-14</url>
     <developer_name>Space Wizards Federation</developer_name>
     <summary>Multiplayer disaster simulator</summary>
     <description>
@@ -82,6 +84,11 @@
         <content_attribute id="social-info">mild</content_attribute>
     </content_rating>
     <releases>
-	    <release version="0.20.5" date="2023-02-24" />
+        <release version="0.21.0" date="2023-05-13">
+            <description>
+                <p>Server browser now supports filtering by tags such as language or region.</p>
+            </description>
+        </release>
+        <release version="0.20.5" date="2023-02-24" />
     </releases>
 </component>

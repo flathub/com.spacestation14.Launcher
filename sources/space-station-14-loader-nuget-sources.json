@@ -1,52 +1,45 @@
 [
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/libsodium/1.0.18/libsodium.1.0.18.nupkg",
-        "sha512": "3c561728300bbb52b4cc191be11682edab3ee7e8713d8bf9931ca6ce88d280e1232160f2efcb0138ea2be84805ab4a6d2699edc2cf63a7cd28d81e0f2f5cf98e",
+        "url": "https://api.nuget.org/v3-flatcontainer/libsodium/1.0.18.2/libsodium.1.0.18.2.nupkg",
+        "sha512": "a09a1198538a7b41b6ed20b81ebc8d2a27f065638b5fa678fba3975a492082f200a4dd8e636805c61531db62435889584660ec129d61e76fc65ed0a086682acf",
         "dest": "nuget-sources",
-        "dest-filename": "libsodium.1.0.18.nupkg"
+        "dest-filename": "libsodium.1.0.18.2.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.14/microsoft.aspnetcore.app.ref.6.0.14.nupkg",
-        "sha512": "d0a15f07f354df8063ed50f7a9b6ac4a2afee32d06597ec7ad14e52c45753f18c23afea19eba3a6f44befd5f49b6c899ca035f5cb11ce2ba08f16e180b52b742",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.16/microsoft.aspnetcore.app.ref.6.0.16.nupkg",
+        "sha512": "7b994bf1cf10a2b9c24f333046adbd78a14a5a969d1c235cb23ac93af51d1fe6a01304b61983b00bea9eb4c772bf6c9439f95d40d1db0f09c10d141bbe068cf2",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.14.nupkg"
+        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.16.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite/6.0.1/microsoft.data.sqlite.6.0.1.nupkg",
-        "sha512": "758ea5da8d98691fd03ebf5aabcbd01a43b6a52ab2e20e39a80157fbc351671b3414bb2fb13637cd8d2c8d6d9e1009d6eed6d7ea52bf3e361e2103ea33fde316",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite/7.0.4/microsoft.data.sqlite.7.0.4.nupkg",
+        "sha512": "29365c1f7afcffd080cba2bdec566d6d04305a5a38e948889777f57e142eab643d2e5c80cf06b8bb9fa10402a0f5a91f2e181129e5512ee5c57c17aa3432924a",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.data.sqlite.6.0.1.nupkg"
+        "dest-filename": "microsoft.data.sqlite.7.0.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/6.0.1/microsoft.data.sqlite.core.6.0.1.nupkg",
-        "sha512": "bb2dd7a768389e59a235b1a1bc62ec9f7d44da39692767e7747d19bf2b9000383f18e906fe1c59fba8e5f17a7a39fec22e06bd819dc041d1556a44795c44daf8",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/7.0.4/microsoft.data.sqlite.core.7.0.4.nupkg",
+        "sha512": "bc1730e30a0df204844d22ec450db660458ab4b0b4612440ddb312004ff2ac3a9a2d9da41fe24a6694cc4bac093250ba9b04f2fe251f22b0441dfcd84c623e8d",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.data.sqlite.core.6.0.1.nupkg"
+        "dest-filename": "microsoft.data.sqlite.core.7.0.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.14/microsoft.netcore.app.ref.6.0.14.nupkg",
-        "sha512": "6e0dfaeedce0725933004dd51ea0185970f82d42e24d83e0c59d6fafc8825148d4754af32c0abaf514631ef8a128f70eb480a7ad834d3caf88b34709c3f884f1",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.16/microsoft.netcore.app.ref.6.0.16.nupkg",
+        "sha512": "62782cccfc95ae35d8bf1b47ed7bc61191bf221618dd3dd616b5d06f4f8abcad37ca7f1b34984094c9bfd12b8cac00d82fb2958fbd53f94124c241eb4af90f98",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.app.ref.6.0.14.nupkg"
+        "dest-filename": "microsoft.netcore.app.ref.6.0.16.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.platforms/1.0.1/microsoft.netcore.platforms.1.0.1.nupkg",
-        "sha512": "5f3622dafd8fe8f3406c7a7ee506a7363c9955b28819ae1f2b067c38eae7ab6e620eb63442929b967c94fc511e47a2b7547ab62b6f1aafe37daa222499c9bb19",
+        "url": "https://api.nuget.org/v3-flatcontainer/nsec.cryptography/22.4.0/nsec.cryptography.22.4.0.nupkg",
+        "sha512": "7097933a56cc70b15274cb76c3f032a5401f6c6beb1afc797e5dd3f67882d25179eb6df66e38112573aecf88dbc91d70503adae954d3f5917038d3321d66dca4",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.platforms.1.0.1.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/nsec.cryptography/20.2.0/nsec.cryptography.20.2.0.nupkg",
-        "sha512": "84d10770bc455632d9ad764415dcf3aaebe3afcea905235b325b4386690cdb7f70f53865c939b1a6051c9dc02eb33c7449025b596a54a15ae3da9e1de295b615",
-        "dest": "nuget-sources",
-        "dest-filename": "nsec.cryptography.20.2.0.nupkg"
+        "dest-filename": "nsec.cryptography.22.4.0.nupkg"
     },
     {
         "type": "file",
@@ -99,38 +92,38 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/sharpzstd.interop/1.5.2-beta1/sharpzstd.interop.1.5.2-beta1.nupkg",
-        "sha512": "e81a408504769f8b1764ab89c4acb9cb44f9bfd0c24e1eda36826320c06d2bd2f82b4fd9e0514b012940c8d24da647bf6650509c49911b634a1d8e47b3364867",
+        "url": "https://api.nuget.org/v3-flatcontainer/sharpzstd.interop/1.5.2-beta2/sharpzstd.interop.1.5.2-beta2.nupkg",
+        "sha512": "07e441570f48e7cdd798b02a119eaaf4940b0cd256e3f7e09d257a3795a44c6df7586e830bc12000f02025a973ba822e534210dfd0d9db3a646b89f761611770",
         "dest": "nuget-sources",
-        "dest-filename": "sharpzstd.interop.1.5.2-beta1.nupkg"
+        "dest-filename": "sharpzstd.interop.1.5.2-beta2.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.bundle_e_sqlite3/2.0.6/sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg",
-        "sha512": "bc58ae41551e69041ad69824f90618bed52055cd4169b533ec7a0d0161dabe5d85111209fb258dec9e7a2806280bacfad6282d58bc21bd72166fe9a9a7a67b0c",
+        "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg",
+        "sha512": "f4df7208c123f817ddf5f4ed69750fece9622efe2a26c39d3a5e71035e3d81c009953e8d066d1e06560d52dbe167c06cdee73cc255cdde7d31b08be466d2b126",
         "dest": "nuget-sources",
-        "dest-filename": "sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg"
+        "dest-filename": "sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.core/2.0.6/sqlitepclraw.core.2.0.6.nupkg",
-        "sha512": "b70dcd2efbfe04b68cec169408740410ae9eaf51e12ae86b3828ed44421ffd65ee2040cdc1b6898c16aad8feaa57c96e2b76fda8d869fa21daa32d13a62163d7",
+        "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg",
+        "sha512": "4a654a227445d97e0c3c00223f819b90d64746e7b2483c4ff0b69ae02d6d3f22a68df7d6c00245aed6f2c51610dc29714fbe6765a8fbe42795f90448c04909d2",
         "dest": "nuget-sources",
-        "dest-filename": "sqlitepclraw.core.2.0.6.nupkg"
+        "dest-filename": "sqlitepclraw.core.2.1.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/2.0.6/sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg",
-        "sha512": "bbf0c0fbbabde5a8cf6c2c0526e6ced2dc9284a907edb836ce1a2872302ac017c8f7fc28f73d5456d895f0fe12494d76d7511b87e8013a93440cdc3e6af24e07",
+        "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/2.1.4/sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg",
+        "sha512": "0b14d4a7df9f3b711364d02b049f7225d9110e7d9e5bb8b121cbdc74ecf4633b69e4dd2ab9e903580a89311f0f42a6f02f5f949c041625fcb1fcf88ae67ad5ca",
         "dest": "nuget-sources",
-        "dest-filename": "sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg"
+        "dest-filename": "sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.provider.e_sqlite3/2.0.6/sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg",
-        "sha512": "4ea133e872af83d11a67f87d0e465c600a034db040e36343113c64b8ff4405065b1d014f9cf7e6a02b132ef4e697c395b100d98f40570cfb10a66d56ca040862",
+        "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.provider.e_sqlite3/2.1.4/sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg",
+        "sha512": "35281e8819022e46758d5bae27b86b0b305d6e659eec5080b8a81c34f836545da860367cb67209aba3b59dfcac7fbcefe368c26e29e60860773e2d73e22bd887",
         "dest": "nuget-sources",
-        "dest-filename": "sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg"
+        "dest-filename": "sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg"
     },
     {
         "type": "file",
@@ -145,12 +138,5 @@
         "sha512": "8ece5491eb0fe332bc190f40cf76b3beee0c5f996325034861be221fdb0ff02fd59e4f7020b3c4a1f29a457f76ff76c4c95d46d38555e4f48c7a3bf172d87966",
         "dest": "nuget-sources",
         "dest-filename": "system.memory.4.5.4.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/4.7.0/system.runtime.compilerservices.unsafe.4.7.0.nupkg",
-        "sha512": "14c154122872d3929f4f691aa2cb8db78f62b8b6e18b278b39a53d128d93b5cc59be330fa9b6b4613c81f9acfe004f1c97f2f815df753a8b97628c17dd543605",
-        "dest": "nuget-sources",
-        "dest-filename": "system.runtime.compilerservices.unsafe.4.7.0.nupkg"
     }
 ]
