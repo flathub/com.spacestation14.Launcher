@@ -84,6 +84,11 @@
         <content_attribute id="social-info">mild</content_attribute>
     </content_rating>
     <releases>
+        <release version="0.21.1" date="2023-05-14">
+            <description>
+                <p>Fixed filtering for extended language tags such as "en-US"</p>
+            </description>
+        </release>
         <release version="0.21.0" date="2023-05-13">
             <description>
                 <p>Server browser now supports filtering by tags such as language or region.</p>
