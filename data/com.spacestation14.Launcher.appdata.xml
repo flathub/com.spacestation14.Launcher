@@ -84,6 +84,9 @@
         <content_attribute id="social-info">mild</content_attribute>
     </content_rating>
     <releases>
+        <release version="0.24.0" date="2023-10-22">
+            <p>You can now configure multiple "hubs" to fetch servers in the server browser.</p>
+        </release>
         <release version="0.23.0" date="2023-09-22" />
         <release version="0.22.1" date="2023-06-25">
             <description>
