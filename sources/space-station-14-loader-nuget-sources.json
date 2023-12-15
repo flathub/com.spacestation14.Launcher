@@ -8,10 +8,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.23/microsoft.aspnetcore.app.ref.6.0.23.nupkg",
-        "sha512": "34e416289acffe6582d26bb69171045fe00a9607daa6c65faf302d795246ac7c47d5e04b47d84795f884e610c3ef323be47c40b0135c16f88366f747b9fd9e9f",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.25/microsoft.aspnetcore.app.ref.6.0.25.nupkg",
+        "sha512": "bba75505fce0302817e984b9d6faa71479f2761ca929c9b9a8d8c5329dcd607aa15e3d0dbaaecb03185a9a0fea689b17ba3c47872063220e8d8153ca547c43d9",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.23.nupkg"
+        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.25.nupkg"
     },
     {
         "type": "file",
@@ -29,10 +29,17 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.23/microsoft.netcore.app.ref.6.0.23.nupkg",
-        "sha512": "ccf9979e26a3c15f07f3c3c1ea0175856c48e04038ed6fdc261dfcc0b0c9b2e0950011a5012ef0acaeac9b4262182a9339210d4bc67b9cda68f17293d6e99f0b",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.net.illink.tasks/8.0.0/microsoft.net.illink.tasks.8.0.0.nupkg",
+        "sha512": "7fcfe8685558d875a773ff41455abd765280f7c50dd725f0d580acdc3ea2313560f04e52070b91aafcdd912f2c7c8d7d7f9f79d586bcd1cd6125268773b0402e",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.app.ref.6.0.23.nupkg"
+        "dest-filename": "microsoft.net.illink.tasks.8.0.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.25/microsoft.netcore.app.ref.6.0.25.nupkg",
+        "sha512": "bc32eddde312ee586d342c6430f21f83f63ba7af40b3e94f07ee9d4b6f3cb17126db3edd953c906ab98248586b4255bca2956d550ee65bd797effa030686bf20",
+        "dest": "nuget-sources",
+        "dest-filename": "microsoft.netcore.app.ref.6.0.25.nupkg"
     },
     {
         "type": "file",
