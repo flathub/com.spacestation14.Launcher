@@ -232,13 +232,6 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite/7.0.4/microsoft.data.sqlite.7.0.4.nupkg",
-        "sha512": "29365c1f7afcffd080cba2bdec566d6d04305a5a38e948889777f57e142eab643d2e5c80cf06b8bb9fa10402a0f5a91f2e181129e5512ee5c57c17aa3432924a",
-        "dest": "nuget-sources",
-        "dest-filename": "microsoft.data.sqlite.7.0.4.nupkg"
-    },
-    {
-        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/7.0.4/microsoft.data.sqlite.core.7.0.4.nupkg",
         "sha512": "bc1730e30a0df204844d22ec450db660458ab4b0b4612440ddb312004ff2ac3a9a2d9da41fe24a6694cc4bac093250ba9b04f2fe251f22b0441dfcd84c623e8d",
         "dest": "nuget-sources",
@@ -523,6 +516,13 @@
         "sha512": "8ece5491eb0fe332bc190f40cf76b3beee0c5f996325034861be221fdb0ff02fd59e4f7020b3c4a1f29a457f76ff76c4c95d46d38555e4f48c7a3bf172d87966",
         "dest": "nuget-sources",
         "dest-filename": "system.memory.4.5.4.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.net.http.winhttphandler/8.0.0/system.net.http.winhttphandler.8.0.0.nupkg",
+        "sha512": "2ab77440a3fb4494cbe109e66c211700d1439156c1b6bfd856457eb8e9d56bf829d466be489ad0545bc5b5012e70c73a7cc41156d9f50e4f4550e6c817890972",
+        "dest": "nuget-sources",
+        "dest-filename": "system.net.http.winhttphandler.8.0.0.nupkg"
     },
     {
         "type": "file",

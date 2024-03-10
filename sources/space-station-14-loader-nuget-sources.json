@@ -8,17 +8,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.25/microsoft.aspnetcore.app.ref.6.0.25.nupkg",
-        "sha512": "bba75505fce0302817e984b9d6faa71479f2761ca929c9b9a8d8c5329dcd607aa15e3d0dbaaecb03185a9a0fea689b17ba3c47872063220e8d8153ca547c43d9",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg",
+        "sha512": "2ce394d2aa6f42ce1ed464bcf0bc10e028727640aa7c230d134075f66addfe5e664eb436cd27d32de3f7338eac0c2d89dcb1099f833c168fe1b0b54ca344b6a1",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.25.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite/7.0.4/microsoft.data.sqlite.7.0.4.nupkg",
-        "sha512": "29365c1f7afcffd080cba2bdec566d6d04305a5a38e948889777f57e142eab643d2e5c80cf06b8bb9fa10402a0f5a91f2e181129e5512ee5c57c17aa3432924a",
-        "dest": "nuget-sources",
-        "dest-filename": "microsoft.data.sqlite.7.0.4.nupkg"
+        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.27.nupkg"
     },
     {
         "type": "file",
@@ -36,10 +29,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.25/microsoft.netcore.app.ref.6.0.25.nupkg",
-        "sha512": "bc32eddde312ee586d342c6430f21f83f63ba7af40b3e94f07ee9d4b6f3cb17126db3edd953c906ab98248586b4255bca2956d550ee65bd797effa030686bf20",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg",
+        "sha512": "c6fbf1f336b95f46106d354aa93f1a6329796237856004ff746ccdc26998106e80da8fbec6096c922f0c882aaa2e7bcfcca546f74145046f02aefea6d129900b",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.app.ref.6.0.25.nupkg"
+        "dest-filename": "microsoft.netcore.app.ref.6.0.27.nupkg"
     },
     {
         "type": "file",

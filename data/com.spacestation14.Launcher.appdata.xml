@@ -84,15 +84,20 @@
         <content_attribute id="social-info">mild</content_attribute>
     </content_rating>
     <releases>
+        <release version="0.26.0" date="2024-03-10" />
         <release version="0.25.0" date="2023-12-14">
-            <ul>
-                <li>Updated to .NET 8 and Avalonia 11 to allow new functionality and better performance.</li>
-                <li>Fixed bug where launcher could get stuck on "clearing server content".</li>
-                <li>Fix "connect" button remaining focused after connection popup opens.</li>
-            </ul>
+            <description>
+                <ul>
+                    <li>Updated to .NET 8 and Avalonia 11 to allow new functionality and better performance.</li>
+                    <li>Fixed bug where launcher could get stuck on "clearing server content".</li>
+                    <li>Fix "connect" button remaining focused after connection popup opens.</li>
+                </ul>
+            </description>
         </release>
         <release version="0.24.0" date="2023-10-22">
-            <p>You can now configure multiple "hubs" to fetch servers in the server browser.</p>
+            <description>
+                <p>You can now configure multiple "hubs" to fetch servers in the server browser.</p>
+            </description>
         </release>
         <release version="0.23.0" date="2023-09-22" />
         <release version="0.22.1" date="2023-06-25">
