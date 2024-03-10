@@ -42,7 +42,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/space-wizards/SS14.Launcher.git
-        tag: v0.25.0
+        tag: v0.26.0
       - sources/space-station-14-launcher-nuget-sources.json
       - sources/space-station-14-loader-nuget-sources.json
     build-commands:
