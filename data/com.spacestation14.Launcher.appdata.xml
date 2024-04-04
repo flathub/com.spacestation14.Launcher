@@ -5,10 +5,10 @@
     <name>Space Station 14</name>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>MIT</project_license>
-    <url type="homepage">https://spacestation14.io/</url>
+    <url type="homepage">https://spacestation14.com/</url>
     <url type="donation">https://www.patreon.com/spacestation14</url>
     <url type="help">https://wiki.spacestation14.io/wiki/Main_Page</url>
-    <url type="contact">https://spacestation14.io/about/contact/</url>
+    <url type="contact">https://spacestation14.com/about/contact/</url>
     <url type="bugtracker">https://github.com/space-wizards/space-station-14/issues</url>
     <url type="contribute">https://github.com/space-wizards/space-station-14</url>
     <developer_name>Space Wizards Federation</developer_name>
@@ -55,23 +55,23 @@
     <screenshots>
         <screenshot type="default">
             <caption>In-game screenshot</caption>
-            <image type="source" width="1280" height="720">https://spacestation14.io/images/home/gallery-bar.png</image>
+            <image type="source" width="1280" height="720">https://spacestation14.com/images/home/gallery-bar.png</image>
         </screenshot>
         <screenshot type="default">
             <caption>In-game screenshot</caption>
-            <image type="source" width="1280" height="720">https://spacestation14.io/images/home/gallery-rnd.png</image>
+            <image type="source" width="1280" height="720">https://spacestation14.com/images/home/gallery-rnd.png</image>
         </screenshot>
         <screenshot type="default">
             <caption>In-game screenshot</caption>
-            <image type="source" width="1280" height="720">https://spacestation14.io/images/home/gallery-engineering.png</image>
+            <image type="source" width="1280" height="720">https://spacestation14.com/images/home/gallery-engineering.png</image>
         </screenshot>
         <screenshot type="default">
             <caption>In-game screenshot</caption>
-            <image type="source" width="1280" height="720">https://spacestation14.io/images/home/gallery-greytide.png</image>
+            <image type="source" width="1280" height="720">https://spacestation14.com/images/home/gallery-greytide.png</image>
         </screenshot>
         <screenshot type="default">
             <caption>In-game screenshot</caption>
-            <image type="source" width="1280" height="720">https://spacestation14.io/images/home/gallery-medbay.png</image>
+            <image type="source" width="1280" height="720">https://spacestation14.com/images/home/gallery-medbay.png</image>
         </screenshot>
     </screenshots>
     <launchable type="desktop-id">com.spacestation14.Launcher.desktop</launchable>
