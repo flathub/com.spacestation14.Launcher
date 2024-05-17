@@ -84,10 +84,11 @@
         <content_attribute id="social-info">mild</content_attribute>
     </content_rating>
     <releases>
-        <release version="0.27.1" date="2024-05-17">
+        <release version="0.27.2" date="2024-05-17">
             <description>
                 <ul>
                     <li>Fixed being unable to connect to many servers with direct IP.</li>
+                    <li>Fixed links to account management pages being broken.</li>
                 </ul>
             </description>
         </release>
