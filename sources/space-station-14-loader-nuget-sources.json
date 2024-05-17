@@ -8,10 +8,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg",
-        "sha512": "2ce394d2aa6f42ce1ed464bcf0bc10e028727640aa7c230d134075f66addfe5e664eb436cd27d32de3f7338eac0c2d89dcb1099f833c168fe1b0b54ca344b6a1",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.30/microsoft.aspnetcore.app.ref.6.0.30.nupkg",
+        "sha512": "15445f1f7f3761afa03830b65488f58c6ddb74c8942725e407826605faea8d765bebf26d9093303427787b61704d27acfc416a7e7a015acdbf8666c5b890f3db",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.27.nupkg"
+        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.30.nupkg"
     },
     {
         "type": "file",
@@ -29,10 +29,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg",
-        "sha512": "c6fbf1f336b95f46106d354aa93f1a6329796237856004ff746ccdc26998106e80da8fbec6096c922f0c882aaa2e7bcfcca546f74145046f02aefea6d129900b",
+        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.30/microsoft.netcore.app.ref.6.0.30.nupkg",
+        "sha512": "690fd8735a067a1abf5b75b479523216d7b9804e62f98d3f46e8e55a6aadb977fb2b267175883d3003633aeb4976a0e6fe28ceb421e32bafbb4d149dcf4aa11f",
         "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.app.ref.6.0.27.nupkg"
+        "dest-filename": "microsoft.netcore.app.ref.6.0.30.nupkg"
     },
     {
         "type": "file",
