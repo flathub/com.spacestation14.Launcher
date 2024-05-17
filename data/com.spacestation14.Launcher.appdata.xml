@@ -84,6 +84,16 @@
         <content_attribute id="social-info">mild</content_attribute>
     </content_rating>
     <releases>
+        <release version="0.27.0" date="2024-05-17">
+            <description>
+                <ul>
+                    <li>Fixed bugs with the content bundle load screen.</li>
+                    <li>Updated URLs to point to new infrastructure.</li>
+                    <li>"Login expired" screen now has a "forgot password" button.</li>
+                    <li>Started displaying hilarious and topical messages on loading screens.</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.26.0" date="2024-03-10" />
         <release version="0.25.0" date="2023-12-14">
             <description>
