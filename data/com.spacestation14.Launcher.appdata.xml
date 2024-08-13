@@ -84,6 +84,16 @@
         <content_attribute id="social-info">mild</content_attribute>
     </content_rating>
     <releases>
+        <release version="0.28.1" date="2024-08-13">
+            <description>
+                <ul>
+                    <li>Fixed some networking bugs.</li>
+                    <li>Added "show password" checkbox on login.</li>
+                    <li>Further diagnostic logging.</li>
+                    <li>Updated the localization files.</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.28.0" date="2024-05-31">
             <description>
                 <ul>
