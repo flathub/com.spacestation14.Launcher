@@ -8,13 +8,6 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg",
-        "sha512": "f07ed91d3b4ee33e1da53d3c257a395c4687ee3867979e19ee890c3dfb7b9b21fa26fbca09c5b5738181fde034b395165c8fb9f8133d3e5a44c536921c45160f",
-        "dest": "nuget-sources",
-        "dest-filename": "microsoft.aspnetcore.app.ref.6.0.31.nupkg"
-    },
-    {
-        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/7.0.4/microsoft.data.sqlite.core.7.0.4.nupkg",
         "sha512": "bc1730e30a0df204844d22ec450db660458ab4b0b4612440ddb312004ff2ac3a9a2d9da41fe24a6694cc4bac093250ba9b04f2fe251f22b0441dfcd84c623e8d",
         "dest": "nuget-sources",
@@ -26,13 +19,6 @@
         "sha512": "7fcfe8685558d875a773ff41455abd765280f7c50dd725f0d580acdc3ea2313560f04e52070b91aafcdd912f2c7c8d7d7f9f79d586bcd1cd6125268773b0402e",
         "dest": "nuget-sources",
         "dest-filename": "microsoft.net.illink.tasks.8.0.0.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg",
-        "sha512": "512e4c0912194e42810384c9f8fa97880dfb4aaa45617f6568aebf5dc1ead619b62791b0064f02b7281ac74ad2798389bf6aff4fb8ccedc64496870ff02883a6",
-        "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.app.ref.6.0.31.nupkg"
     },
     {
         "type": "file",
