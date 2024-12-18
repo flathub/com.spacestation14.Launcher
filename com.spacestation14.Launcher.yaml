@@ -1,15 +1,15 @@
 ---
 app-id: com.spacestation14.Launcher
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.dotnet8
+  - org.freedesktop.Sdk.Extension.dotnet9
 build-options:
-  prepend-path: "/usr/lib/sdk/dotnet8/bin"
-  append-ld-library-path: "/usr/lib/sdk/dotnet8/lib"
+  prepend-path: "/usr/lib/sdk/dotnet9/bin"
+  append-ld-library-path: "/usr/lib/sdk/dotnet9/lib"
   env:
-    PKG_CONFIG_PATH: "/app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/sdk/dotnet8/lib/pkgconfig"
+    PKG_CONFIG_PATH: "/app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/sdk/dotnet9/lib/pkgconfig"
 
 command: SS14.Launcher
 
@@ -33,7 +33,7 @@ modules:
   - name: dotnet
     buildsystem: simple
     build-commands:
-    - /usr/lib/sdk/dotnet8/bin/install.sh
+    - /usr/lib/sdk/dotnet9/bin/install.sh
 
   - shared-modules/linux-audio/fluidsynth2.json
 
@@ -42,16 +42,16 @@ modules:
     sources:
       - type: git
         url: https://github.com/space-wizards/SS14.Launcher.git
-        tag: v0.29.1
+        tag: v0.30.0
       - sources/space-station-14-launcher-nuget-sources.json
       - sources/space-station-14-loader-nuget-sources.json
     build-commands:
       - dotnet publish SS14.Launcher/SS14.Launcher.csproj /p:FullRelease=True -c Release --no-self-contained --source ./nuget-sources
       - dotnet publish SS14.Loader/SS14.Loader.csproj -c Release --no-self-contained --source ./nuget-sources
       - mkdir -p ${FLATPAK_DEST}/bin
-      - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Launcher/bin/Release/net8.0/publish/* ${FLATPAK_DEST}/bin
+      - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Launcher/bin/Release/net9.0/publish/* ${FLATPAK_DEST}/bin
       - mkdir -p ${FLATPAK_DEST}/bin/loader
-      - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Loader/bin/Release/net8.0/publish/* ${FLATPAK_DEST}/bin/loader
+      - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Loader/bin/Release/net9.0/publish/* ${FLATPAK_DEST}/bin/loader
 
     # The SS14.Launcher project does not include an SVG icon file, but one is
     # available in the asset-dump repository.
