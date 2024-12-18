@@ -316,6 +316,13 @@
     },
     {
         "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/reactiveui/18.3.1/reactiveui.18.3.1.nupkg",
+        "sha512": "79089217f546251ac5937df380f5a7c25aeb73a8c2ca9bcd764914d2faf955e8341c270f6ff29ce21ac9668fc491f2ef3612a7b58b26b11febb92573f7bc2a46",
+        "dest": "nuget-sources",
+        "dest-filename": "reactiveui.18.3.1.nupkg"
+    },
+    {
+        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/reactiveui/18.4.26/reactiveui.18.4.26.nupkg",
         "sha512": "68560f556e6a4b67989ad5d6b6cd70082d95826be49faee44ec5374d0d790770e373cd7cbf59911190d6d03b96026b44313ecbd39505078177daa6bdc4a1bd69",
         "dest": "nuget-sources",
@@ -334,6 +341,13 @@
         "sha512": "28049431382f2712753899eeed4ce6c5647fc0f7f89e1bb6a792d87ef0faf9d4d0b09af09388b35d872ee0b4c99b8d5c52a6000f8b8dc5f887776f171d679131",
         "dest": "nuget-sources",
         "dest-filename": "robust.shared.authlib.0.1.2.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/serilog/2.10.0/serilog.2.10.0.nupkg",
+        "sha512": "9c19964d1126c2e99f546f1da81764644fe39b153e3d8d725473221a6e0855f356776d2f40a8a5d04ece4e420075d5b987650108a4fc9b32b4f56ad3d0792260",
+        "dest": "nuget-sources",
+        "dest-filename": "serilog.2.10.0.nupkg"
     },
     {
         "type": "file",
@@ -635,6 +649,13 @@
         "sha512": "92ab2249f08073cfafdc4cfbd7db36d651ad871b8d8ba961006982187de374bf4a30af93f15f73b05af343f7a70cbd484b04d646570587636ae72171eb0714fb",
         "dest": "nuget-sources",
         "dest-filename": "system.runtime.4.3.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg",
+        "sha512": "84c91d5b192cca942515707b25a9907a00ec73110040ee051ddfe5c3fce549953d7598008a3eb9c630ab5deaf5f37c2fa0d033262739cf38e3da873dfdd9685a",
+        "dest": "nuget-sources",
+        "dest-filename": "system.runtime.compilerservices.unsafe.4.5.2.nupkg"
     },
     {
         "type": "file",
