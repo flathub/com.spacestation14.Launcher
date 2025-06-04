@@ -84,6 +84,28 @@
         <content_attribute id="social-info">mild</content_attribute>
     </content_rating>
     <releases>
+        <release version="0.32.0" date="2025-06-04">
+            <description>
+                <ul>
+                    <li>Attempt to fix a date parsing issue that could cause the launcher to brick.</li>
+                    <li>Server search now doesn't update on every character entered to avoid lag.</li>
+                    <li>Added Italian and Norwegian Bokmål translation.</li>
+                    <li>Updated the localization files.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="0.31.0" date="2025-03-23">
+            <description>
+                <ul>
+                    <li>Add fallback auth/hub service integration to work around Russia blocking western infra providers.</li>
+                    <li>Improved error messages for connection errors and similar.</li>
+                    <li>Fix filters menu not updating text when switching launcher language.</li>
+                    <li>Round time and lobby status of server is now displayed in server list.</li>
+                    <li>Properly line out column headers in server list.</li>
+                    <li>Updated the localization files.</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.30.0" date="2024-12-18">
             <description>
                 <ul>
