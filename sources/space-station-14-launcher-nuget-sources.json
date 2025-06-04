@@ -309,13 +309,6 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/reactiveui/18.4.26/reactiveui.18.4.26.nupkg",
-        "sha512": "68560f556e6a4b67989ad5d6b6cd70082d95826be49faee44ec5374d0d790770e373cd7cbf59911190d6d03b96026b44313ecbd39505078177daa6bdc4a1bd69",
-        "dest": "nuget-sources",
-        "dest-filename": "reactiveui.18.4.26.nupkg"
-    },
-    {
-        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/reactiveui/20.1.1/reactiveui.20.1.1.nupkg",
         "sha512": "40f7e936c81b1ee8a1f60e3c33627dc09b402b156c6e1c7e8d4ec6a2d5af80fc40938090367b0613d222ef4266ac185f2c51a2baff4e41f2b76ed39bbf26ab37",
         "dest": "nuget-sources",
@@ -334,13 +327,6 @@
         "sha512": "28049431382f2712753899eeed4ce6c5647fc0f7f89e1bb6a792d87ef0faf9d4d0b09af09388b35d872ee0b4c99b8d5c52a6000f8b8dc5f887776f171d679131",
         "dest": "nuget-sources",
         "dest-filename": "robust.shared.authlib.0.1.2.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/serilog/2.10.0/serilog.2.10.0.nupkg",
-        "sha512": "9c19964d1126c2e99f546f1da81764644fe39b153e3d8d725473221a6e0855f356776d2f40a8a5d04ece4e420075d5b987650108a4fc9b32b4f56ad3d0792260",
-        "dest": "nuget-sources",
-        "dest-filename": "serilog.2.10.0.nupkg"
     },
     {
         "type": "file",
