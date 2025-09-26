@@ -24,6 +24,7 @@ finish-args:
   #       becomes available:
   #       <https://github.com/AvaloniaUI/Avalonia/pull/8003>
   #       <https://github.com/space-wizards/RobustToolbox/issues/2468>
+  # UPDATE: Engine supports Wayland soon:tm:, Launcher does not yet.
   - --socket=x11
   # Allow access to the Music directory for MIDI files
   - --filesystem=xdg-music
@@ -35,23 +36,25 @@ modules:
     build-commands:
     - /usr/lib/sdk/dotnet9/bin/install.sh
 
-  - shared-modules/linux-audio/fluidsynth2.json
-
   - name: space-station-14-launcher
     buildsystem: simple
     sources:
       - type: git
         url: https://github.com/space-wizards/SS14.Launcher.git
-        tag: v0.33.0
+        tag: v0.34.0
+
       - sources/space-station-14-launcher-nuget-sources.json
       - sources/space-station-14-loader-nuget-sources.json
+      - type: file
+        path: rid.sh
+
     build-commands:
-      - dotnet publish SS14.Launcher/SS14.Launcher.csproj /p:FullRelease=True -c Release --no-self-contained --source ./nuget-sources
-      - dotnet publish SS14.Loader/SS14.Loader.csproj -c Release --no-self-contained --source ./nuget-sources
+      - dotnet publish SS14.Launcher/SS14.Launcher.csproj /p:FullRelease=True -c Release -r $(./rid.sh) --no-self-contained --source ./nuget-sources
+      - dotnet publish SS14.Loader/SS14.Loader.csproj -c Release -r $(./rid.sh) --no-self-contained --source ./nuget-sources
       - mkdir -p ${FLATPAK_DEST}/bin
-      - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Launcher/bin/Release/net9.0/publish/* ${FLATPAK_DEST}/bin
+      - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Launcher/bin/Release/net9.0/$(./rid.sh)/publish/* ${FLATPAK_DEST}/bin
       - mkdir -p ${FLATPAK_DEST}/bin/loader
-      - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Loader/bin/Release/net9.0/publish/* ${FLATPAK_DEST}/bin/loader
+      - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Loader/bin/Release/net9.0/$(./rid.sh)/publish/* ${FLATPAK_DEST}/bin/loader
 
     # The SS14.Launcher project does not include an SVG icon file, but one is
     # available in the asset-dump repository.
