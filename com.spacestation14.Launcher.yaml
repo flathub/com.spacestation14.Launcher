@@ -26,7 +26,6 @@ finish-args:
   #       <https://github.com/space-wizards/RobustToolbox/issues/2468>
   # UPDATE: Engine supports Wayland soon:tm:, Launcher does not yet.
   - --socket=x11
-  - --socket=wayland
   # Allow access to the Music directory for MIDI files
   - --filesystem=xdg-music
   - --env=DOTNET_ROOT=/app/lib/dotnet
