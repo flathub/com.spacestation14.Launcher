@@ -1,10 +1,10 @@
 [
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/libsodium/1.0.18.2/libsodium.1.0.18.2.nupkg",
-        "sha512": "a09a1198538a7b41b6ed20b81ebc8d2a27f065638b5fa678fba3975a492082f200a4dd8e636805c61531db62435889584660ec129d61e76fc65ed0a086682acf",
+        "url": "https://api.nuget.org/v3-flatcontainer/libsodium/1.0.20.1/libsodium.1.0.20.1.nupkg",
+        "sha512": "bd6a72ca53a8cf54cde57557dee09ae2e99ce9d07b68689fe71161ecb8a28ade5e6558b48ad3d4e281d22c76a34b48e95a9c1e59db7cbfb93cdc997fb34e0ff1",
         "dest": "nuget-sources",
-        "dest-filename": "libsodium.1.0.18.2.nupkg"
+        "dest-filename": "libsodium.1.0.20.1.nupkg"
     },
     {
         "type": "file",
@@ -36,52 +36,59 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/nsec.cryptography/22.4.0/nsec.cryptography.22.4.0.nupkg",
-        "sha512": "7097933a56cc70b15274cb76c3f032a5401f6c6beb1afc797e5dd3f67882d25179eb6df66e38112573aecf88dbc91d70503adae954d3f5917038d3321d66dca4",
+        "url": "https://api.nuget.org/v3-flatcontainer/nsec.cryptography/25.4.0/nsec.cryptography.25.4.0.nupkg",
+        "sha512": "7424ea4e53b049b2b0ef33e9dab37de9a91e7f070956063c943f06891cd996dffb9d88029e0df5fef69d6117c5503060f329f1ecb8e91e87d88254d6c73ab817",
         "dest": "nuget-sources",
-        "dest-filename": "nsec.cryptography.22.4.0.nupkg"
+        "dest-filename": "nsec.cryptography.25.4.0.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives/0.1.1/robust.natives.0.1.1.nupkg",
-        "sha512": "6777984a3441581874fc47515656d12d1801aabdefabab1cbfd10993e79e18feda04382cc4b3a59e53bc5da9f3925a5cdca6e1be7bce3a344711a1827429d8d6",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives/0.2.1/robust.natives.0.2.1.nupkg",
+        "sha512": "b2ad16131b383f14bb5ebf3e2b7c172f58728e0fda314392fd3f313fa44a7b032858f7ee7ed75972eb67fda7862f34444eb20298648c6144ff9fc073210cc70f",
         "dest": "nuget-sources",
-        "dest-filename": "robust.natives.0.1.1.nupkg"
+        "dest-filename": "robust.natives.0.2.1.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.angle/0.1.1-chromium4758/robust.natives.angle.0.1.1-chromium4758.nupkg",
-        "sha512": "6087e86f857d70a847662e2e52e3831153e85c0f679252b6df84b376a23cb2842ae872877fcc656e6fbbc33a1125412abb32e080fc604501e69019885de003c9",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.angle/0.2.0-chromium7258/robust.natives.angle.0.2.0-chromium7258.nupkg",
+        "sha512": "23911dfaf813221f2710fe23cbf94bdfc49c7c2e20d98c93409e4d8d2574258d37e0ec7bd46740917f100a854e97860837accc2c01df4173698b0a275eacaee3",
         "dest": "nuget-sources",
-        "dest-filename": "robust.natives.angle.0.1.1-chromium4758.nupkg"
+        "dest-filename": "robust.natives.angle.0.2.0-chromium7258.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.fluidsynth/0.1.0/robust.natives.fluidsynth.0.1.0.nupkg",
-        "sha512": "7e5142ec329d1719411f3752321f9a8d125ba061ad739ac3d7d72fc05d9aa8359704e5001492c2cffc81143174d5b05f035f6cb14be7ef89933569623994a719",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.fluidsynth/0.2.0-fluidsynth2.4.6/robust.natives.fluidsynth.0.2.0-fluidsynth2.4.6.nupkg",
+        "sha512": "d7dbd36c03ca2d7f687f9cb3b6310cb5194ac994cc61a1b65958a17206d1c560cf4da8b6e3ed283ebaff1d993b4fcb4f606c23028f5500af223b4db2faf10ed2",
         "dest": "nuget-sources",
-        "dest-filename": "robust.natives.fluidsynth.0.1.0.nupkg"
+        "dest-filename": "robust.natives.fluidsynth.0.2.0-fluidsynth2.4.6.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.freetype/0.1.0/robust.natives.freetype.0.1.0.nupkg",
-        "sha512": "0a18f9f53a47dc4a9af45dad15d63fec734a6bd58192041ea7a063ca774f812b3de0b988dadbd65ee7c55c55b1d0ca05fed8ff09079062cef76d16659b8c02cc",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.freetype/0.2.0-freetype2.13.3/robust.natives.freetype.0.2.0-freetype2.13.3.nupkg",
+        "sha512": "19aba9fe1484e2947805be20576d5677171c2cb2b6f84269d3ef0031f9f882545f80dce92f368e27ad36afe2afac53dac326cb40477f1fb48de6f73022809537",
         "dest": "nuget-sources",
-        "dest-filename": "robust.natives.freetype.0.1.0.nupkg"
+        "dest-filename": "robust.natives.freetype.0.2.0-freetype2.13.3.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.glfw/0.1.0/robust.natives.glfw.0.1.0.nupkg",
-        "sha512": "13b0cba6c0717316d2e3e53c4a1274d8a7a647ec4a34a354d73a5cd640553e1fae2b04ba188ed18a7ff488203c86c9a848f09baabf4026d071c02593eddc6070",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.glfw/0.2.0-glfw3.4/robust.natives.glfw.0.2.0-glfw3.4.nupkg",
+        "sha512": "2729ef4fa58a9ddf8a6a913a49f865f777792214b5d3085362799fbc4f89e5bafc433d7c38715acc464ddc494712c62672047fbd314d9f9bafe0419b0290432f",
         "dest": "nuget-sources",
-        "dest-filename": "robust.natives.glfw.0.1.0.nupkg"
+        "dest-filename": "robust.natives.glfw.0.2.0-glfw3.4.nupkg"
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.openal/0.1.0/robust.natives.openal.0.1.0.nupkg",
-        "sha512": "fc87235cad5415b5de01013d85a166e150c6b34ce32eff907d2133aa964ae271b27db4d19a3a520698471f55573dac32d693e06bc656dbdbff096c25dd5b3ca7",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.openal/0.2.0-openal1.24.3/robust.natives.openal.0.2.0-openal1.24.3.nupkg",
+        "sha512": "e678c6b31fa64fb077339f5224fb8ebbcd6bf63bc6716c715e62333b92b686cb97e7c25c0331142ccb1d4b81cce07383c4d261024fa88266cc255f78b948fc7e",
         "dest": "nuget-sources",
-        "dest-filename": "robust.natives.openal.0.1.0.nupkg"
+        "dest-filename": "robust.natives.openal.0.2.0-openal1.24.3.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.sdl3/0.1.0-sdl3.2.20/robust.natives.sdl3.0.1.0-sdl3.2.20.nupkg",
+        "sha512": "c59849a5e00451a275e70a18adb6d2169dd533e963f2f99b7e21d74ba54c24883e9d6a8fceb646f56b4bc5095efbb7434d6e5dd496ab928d975ebe201beb6a33",
+        "dest": "nuget-sources",
+        "dest-filename": "robust.natives.sdl3.0.1.0-sdl3.2.20.nupkg"
     },
     {
         "type": "file",
@@ -89,6 +96,13 @@
         "sha512": "1a1c1df8a0950e73aae63a4265a060ea650d5ce157e5e00edb4bd14ddfa8b89aacd80505fe78e659d8ba3ed6e2248aae3a895cc55d41a85e8731354c0dc195ae",
         "dest": "nuget-sources",
         "dest-filename": "robust.natives.swnfd.0.1.0.nupkg"
+    },
+    {
+        "type": "file",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.zstd/0.1.0-zstd1.5.7/robust.natives.zstd.0.1.0-zstd1.5.7.nupkg",
+        "sha512": "3651c02062a56a867db03657e0953608a7399cc011631be09c54501f2efb92d3ace0f1934bb6717616352b532478dd1b7a4ef094e8b7a98c6ac5cb022bb27539",
+        "dest": "nuget-sources",
+        "dest-filename": "robust.natives.zstd.0.1.0-zstd1.5.7.nupkg"
     },
     {
         "type": "file",
