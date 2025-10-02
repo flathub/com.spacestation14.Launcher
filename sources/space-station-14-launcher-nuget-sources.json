@@ -316,10 +316,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.zstd/0.1.0-zstd1.5.7/robust.natives.zstd.0.1.0-zstd1.5.7.nupkg",
-        "sha512": "3651c02062a56a867db03657e0953608a7399cc011631be09c54501f2efb92d3ace0f1934bb6717616352b532478dd1b7a4ef094e8b7a98c6ac5cb022bb27539",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.zstd/0.1.1-zstd1.5.7/robust.natives.zstd.0.1.1-zstd1.5.7.nupkg",
+        "sha512": "81831794b5c53f46e469d1cab2f3ebfb70546180058b215bb5a27c4060a029821b33140de650a050e0ad5bf06461cb00a2c9bd2b4405d0860b5b657ceabe9fb3",
         "dest": "nuget-sources",
-        "dest-filename": "robust.natives.zstd.0.1.0-zstd1.5.7.nupkg"
+        "dest-filename": "robust.natives.zstd.0.1.1-zstd1.5.7.nupkg"
     },
     {
         "type": "file",
