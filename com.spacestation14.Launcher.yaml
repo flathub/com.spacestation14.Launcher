@@ -28,6 +28,9 @@ finish-args:
   - --socket=x11
   # Allow access to the Music directory for MIDI files
   - --filesystem=xdg-music
+  # Allow access to Discord rich presence.
+  - --filesystem=xdg-run/app/com.discordapp.Discord:create
+  - --filesystem=xdg-run/discord-ipc-0
   - --env=DOTNET_ROOT=/app/lib/dotnet
 
 modules:
