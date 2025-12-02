@@ -138,19 +138,5 @@
         "sha512": "35281e8819022e46758d5bae27b86b0b305d6e659eec5080b8a81c34f836545da860367cb67209aba3b59dfcac7fbcefe368c26e29e60860773e2d73e22bd887",
         "dest": "nuget-sources",
         "dest-filename": "sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.3/system.memory.4.5.3.nupkg",
-        "sha512": "70fce15a52cc76aacbae05c8e89e2e398d1d32903f63f640a7dd4a3e5747f2c7a887d4bfd22f2a2e40274906cf91648dfd169734fb7c74eb9b4f72614084e1db",
-        "dest": "nuget-sources",
-        "dest-filename": "system.memory.4.5.3.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/system.memory/4.5.4/system.memory.4.5.4.nupkg",
-        "sha512": "8ece5491eb0fe332bc190f40cf76b3beee0c5f996325034861be221fdb0ff02fd59e4f7020b3c4a1f29a457f76ff76c4c95d46d38555e4f48c7a3bf172d87966",
-        "dest": "nuget-sources",
-        "dest-filename": "system.memory.4.5.4.nupkg"
     }
 ]
