@@ -8,7 +8,7 @@ from pathlib import Path
 
 GIT_OPTIONS = ["--depth=1", "--recurse-submodules"]
 
-DOTNET_VERSION = "9"
+DOTNET_VERSION = "10"
 TOOLS_DIR = Path(__file__).parent
 
 PROJECT_DIR = TOOLS_DIR.parent
