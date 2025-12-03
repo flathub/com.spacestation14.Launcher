@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Space Station 14
-Exec=SS14.Launcher
+Exec=wrapper.sh
 Icon=com.spacestation14.Launcher
 Type=Application
 Categories=Game;
