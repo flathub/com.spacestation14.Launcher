@@ -11,7 +11,7 @@ build-options:
   env:
     PKG_CONFIG_PATH: "/app/lib/pkgconfig:/app/share/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig:/usr/lib/sdk/dotnet10/lib/pkgconfig"
 
-command: SS14.Launcher
+command: wrapper.sh
 
 finish-args:
   - --device=dri
@@ -81,6 +81,10 @@ modules:
       # write one from scratch.
       - type: file
         path: data/com.spacestation14.Launcher.appdata.xml
+      # A wrapper for actually launching the game, to ensure discord RPC works.
+      - type: file
+        path: data/wrapper.sh
     build-commands:
       - install -Dm644 com.spacestation14.Launcher.desktop -t /app/share/applications
       - install -Dm644 com.spacestation14.Launcher.appdata.xml -t /app/share/appdata
+      - install -Dm755 wrapper.sh -t ${FLATPAK_DEST}/bin
