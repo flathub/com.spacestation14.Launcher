@@ -8,13 +8,6 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg",
-        "sha512": "6dadc2be89dd95cb681ac86b374030a89fd8f649dcd60436d552b90eba7fc3e33aaf0f69c53f3583e91c28bc63e26c4d785b85df67067afc9c54b20b903c98f1",
-        "dest": "nuget-sources",
-        "dest-filename": "microsoft.aspnetcore.app.ref.8.0.22.nupkg"
-    },
-    {
-        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/7.0.4/microsoft.data.sqlite.core.7.0.4.nupkg",
         "sha512": "bc1730e30a0df204844d22ec450db660458ab4b0b4612440ddb312004ff2ac3a9a2d9da41fe24a6694cc4bac093250ba9b04f2fe251f22b0441dfcd84c623e8d",
         "dest": "nuget-sources",
@@ -29,13 +22,6 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg",
-        "sha512": "53c3d75d8953beea107241d47603a1c6a567559049c45afc597869467e80210430d6a37eea95453d39d448d6e17ef8bb4c106c58503f31e69fe273fde7beab5e",
-        "dest": "nuget-sources",
-        "dest-filename": "microsoft.netcore.app.ref.8.0.22.nupkg"
-    },
-    {
-        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/nsec.cryptography/25.4.0/nsec.cryptography.25.4.0.nupkg",
         "sha512": "7424ea4e53b049b2b0ef33e9dab37de9a91e7f070956063c943f06891cd996dffb9d88029e0df5fef69d6117c5503060f329f1ecb8e91e87d88254d6c73ab817",
         "dest": "nuget-sources",
@@ -43,10 +29,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives/0.2.3/robust.natives.0.2.3.nupkg",
-        "sha512": "2b4750e865b341a433dca6afcf681ec1d48fd6c5fd41062b399bb8848561fad8ee6da5836963fdaf4a6f10c80943ddcc3110bda0a6566ba463ed44491bf30624",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives/0.2.4/robust.natives.0.2.4.nupkg",
+        "sha512": "bc7bee05f3c8d58f85d159a16ab5c704c43ac1043b3e934aa26f771d5a8a78554b0333f01b63a0eb11f03256c5cdd6ddceff7d9b71da45d65dbc36ce7629a1f8",
         "dest": "nuget-sources",
-        "dest-filename": "robust.natives.0.2.3.nupkg"
+        "dest-filename": "robust.natives.0.2.4.nupkg"
     },
     {
         "type": "file",
@@ -85,10 +71,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.sdl3/0.1.1-sdl3.2.20/robust.natives.sdl3.0.1.1-sdl3.2.20.nupkg",
-        "sha512": "d9a135eae5ff929eb349e9f9c2f3194dbfb22c5ea6cefc6a2e1c88a75456b929366f5e0a9fbe87dc2dae20b248bfa4a94dde3fe24a4f30a3f16d995cfa16627f",
+        "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.sdl3/0.1.2-sdl3.4.0/robust.natives.sdl3.0.1.2-sdl3.4.0.nupkg",
+        "sha512": "1bed7dac0f641686616a48657785cbd0242e436bc181473ecafeda811aea1f659e0d8192f96732a7c2efc21199fa59f5aa55f70d54ae7fc29664fd82eafc04c9",
         "dest": "nuget-sources",
-        "dest-filename": "robust.natives.sdl3.0.1.1-sdl3.2.20.nupkg"
+        "dest-filename": "robust.natives.sdl3.0.1.2-sdl3.4.0.nupkg"
     },
     {
         "type": "file",
