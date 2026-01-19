@@ -5,12 +5,14 @@
     <name>Space Station 14</name>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>MIT</project_license>
-    <url type="homepage">https://spacestation14.io/</url>
+    <url type="homepage">https://spacestation14.com/</url>
     <url type="donation">https://www.patreon.com/spacestation14</url>
-    <url type="help">https://wiki.spacestation14.io/wiki/Main_Page</url>
-    <url type="contact">https://spacestation14.io/about/contact/</url>
+    <url type="help">https://wiki.spacestation14.com/wiki/Main_Page</url>
+    <url type="contact">https://spacestation14.com/about/contact/</url>
     <url type="bugtracker">https://github.com/space-wizards/space-station-14/issues</url>
     <url type="contribute">https://github.com/space-wizards/space-station-14</url>
+    <url type="vcs-browser">https://github.com/space-wizards/space-station-14</url>
+    <url type="translate">https://weblate.spacestation14.com/</url>
     <developer_name>Space Wizards Federation</developer_name>
     <summary>Multiplayer disaster simulator</summary>
     <description>
