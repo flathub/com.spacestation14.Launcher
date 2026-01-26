@@ -80,6 +80,15 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="0.37.1" date="2026-01-27">
+            <description>
+                <ul>
+                    <li>Reverted native library update due to issues on OpenDream servers.</li>
+                    <li>Added Irish translation.</li>
+                    <li>Updated the localization files.</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.37.0" date="2026-01-19">
             <description>
                 <ul>
