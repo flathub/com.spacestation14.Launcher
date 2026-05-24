@@ -1,7 +1,6 @@
----
 app-id: com.spacestation14.Launcher
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.dotnet10
@@ -37,20 +36,10 @@ modules:
   - name: dotnet
     buildsystem: simple
     build-commands:
-    - /usr/lib/sdk/dotnet10/bin/install.sh
+      - /usr/lib/sdk/dotnet10/bin/install.sh
 
   - name: space-station-14-launcher
     buildsystem: simple
-    sources:
-      - type: git
-        url: https://github.com/space-wizards/SS14.Launcher.git
-        tag: v0.37.1
-
-      - sources/space-station-14-launcher-nuget-sources.json
-      - sources/space-station-14-loader-nuget-sources.json
-      - type: file
-        path: rid.sh
-
     build-commands:
       - dotnet publish SS14.Launcher/SS14.Launcher.csproj /p:FullRelease=True -c Release -r $(./rid.sh) --no-self-contained --source ./nuget-sources
       - dotnet publish SS14.Loader/SS14.Loader.csproj -c Release -r $(./rid.sh) --no-self-contained --source ./nuget-sources
@@ -58,20 +47,34 @@ modules:
       - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Launcher/bin/Release/net10.0/$(./rid.sh)/publish/* ${FLATPAK_DEST}/bin
       - mkdir -p ${FLATPAK_DEST}/bin/loader
       - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Loader/bin/Release/net10.0/$(./rid.sh)/publish/* ${FLATPAK_DEST}/bin/loader
+    sources:
+      - type: git
+        url: https://github.com/space-wizards/SS14.Launcher.git
+        tag: v0.37.1
+        commit: 7ceb70afb6cf15ca6dddffdd1a47757ed68399d1
+
+      - sources/space-station-14-launcher-nuget-sources.json
+      - sources/space-station-14-loader-nuget-sources.json
+      - type: file
+        path: rid.sh
 
     # The SS14.Launcher project does not include an SVG icon file, but one is
     # available in the asset-dump repository.
   - name: icon-file
     buildsystem: simple
+    build-commands:
+      - install -Dm644 icon-new.svg /app/share/icons/hicolor/scalable/apps/com.spacestation14.Launcher.svg
     sources:
       - type: git
         url: https://github.com/space-wizards/asset-dump.git
         commit: 5ffb49a2f4f3e6805a0b7bef31247eedebfe1043
-    build-commands:
-      - install -Dm644 -T icon-new.svg /app/share/icons/hicolor/scalable/apps/com.spacestation14.Launcher.svg
 
   - name: extra-data
     buildsystem: simple
+    build-commands:
+      - install -Dm644 com.spacestation14.Launcher.desktop -t /app/share/applications
+      - install -Dm644 com.spacestation14.Launcher.appdata.xml -t /app/share/metainfo
+      - install -Dm755 wrapper.sh -t ${FLATPAK_DEST}/bin
     sources:
       # The upstream project does not include a desktop file. Instead, we
       # write one from scratch.
@@ -84,7 +87,3 @@ modules:
       # A wrapper for actually launching the game, to ensure discord RPC works.
       - type: file
         path: data/wrapper.sh
-    build-commands:
-      - install -Dm644 com.spacestation14.Launcher.desktop -t /app/share/applications
-      - install -Dm644 com.spacestation14.Launcher.appdata.xml -t /app/share/appdata
-      - install -Dm755 wrapper.sh -t ${FLATPAK_DEST}/bin
