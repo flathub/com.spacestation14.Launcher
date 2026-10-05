@@ -71,13 +71,6 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/avalonia.reactiveui/11.2.4/avalonia.reactiveui.11.2.4.nupkg",
-        "sha512": "62a2774a4f78b113d1eb5a1cec94a2ec681e7d920800f310f0d381b6949003e20ba7703fd6cf7cf4fc195961182f16ab7e093c5d1f3a638c80564713397a3c04",
-        "dest": "nuget-sources",
-        "dest-filename": "avalonia.reactiveui.11.2.4.nupkg"
-    },
-    {
-        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/avalonia.remote.protocol/11.2.4/avalonia.remote.protocol.11.2.4.nupkg",
         "sha512": "4d6e0f47ee00c75f77b5957048a9b7e5f1df8d56502e1aa0000f94c7ec4ba856c4d75552ab0f3a8127c1e9ceb3f5e4cc9d372d4d6f42906c305b1d86214d2cea",
         "dest": "nuget-sources",
@@ -131,13 +124,6 @@
         "sha512": "e5c76134ffbc36bf9a90b5b33091c324c65686726d3aaf22810d73ffdd26dc8a34d1b0dd96f18d17f15efe09236b3125b6979cc783062ac82559a50d1798f3de",
         "dest": "nuget-sources",
         "dest-filename": "dynamicdata.8.4.1.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/fody/6.6.4/fody.6.6.4.nupkg",
-        "sha512": "968ad81484bfd31f2425022ee0c221620145095463db720ecf958ff86969acae2a1fe62d81f9a77d8ecb29081bb3cabef664fb7a54ad96d6d2bc69901844fc96",
-        "dest": "nuget-sources",
-        "dest-filename": "fody.6.6.4.nupkg"
     },
     {
         "type": "file",
@@ -288,20 +274,6 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/reactiveui/20.1.1/reactiveui.20.1.1.nupkg",
-        "sha512": "40f7e936c81b1ee8a1f60e3c33627dc09b402b156c6e1c7e8d4ec6a2d5af80fc40938090367b0613d222ef4266ac185f2c51a2baff4e41f2b76ed39bbf26ab37",
-        "dest": "nuget-sources",
-        "dest-filename": "reactiveui.20.1.1.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/reactiveui.fody/18.4.26/reactiveui.fody.18.4.26.nupkg",
-        "sha512": "643c11e5e465ec04aaf3cbf32bc9b4ecd931d48341738a854debd6bfe34110699cb39b16b3b1b3c7ea016eaf0429f29a10beecf49c22d5e97345f1e10607b4c7",
-        "dest": "nuget-sources",
-        "dest-filename": "reactiveui.fody.18.4.26.nupkg"
-    },
-    {
-        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/robust.natives.zstd/0.1.1-zstd1.5.7/robust.natives.zstd.0.1.1-zstd1.5.7.nupkg",
         "sha512": "81831794b5c53f46e469d1cab2f3ebfb70546180058b215bb5a27c4060a029821b33140de650a050e0ad5bf06461cb00a2c9bd2b4405d0860b5b657ceabe9fb3",
         "dest": "nuget-sources",
@@ -393,10 +365,10 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/splat/15.1.1/splat.15.1.1.nupkg",
-        "sha512": "6641234f0986b60a918a7f9d617e67f90ee1018711f093242b1e9eec143554de633e20c5923061a9c2cbf6a958e19c03d463a332234bcafeacb09c7f7ae891e3",
+        "url": "https://api.nuget.org/v3-flatcontainer/splat/15.3.1/splat.15.3.1.nupkg",
+        "sha512": "9c4bfccae9e666bb8435bd99427841fc117da02cb7f436155de1cd136d7b14042f5c4924135e35ea4dbc07f9c402b472dd5697cf8abf3a766a8db4cdaed9cbc6",
         "dest": "nuget-sources",
-        "dest-filename": "splat.15.1.1.nupkg"
+        "dest-filename": "splat.15.3.1.nupkg"
     },
     {
         "type": "file",
@@ -428,13 +400,6 @@
     },
     {
         "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg",
-        "sha512": "589aac4c669701ce7910f1a327294f15788d3ecff1d6df5d9255651e5201c5411c2312286fab111a6f549fb4de864c8414cfaf2a365deeb6f068c1ffce7c353c",
-        "dest": "nuget-sources",
-        "dest-filename": "system.componentmodel.annotations.5.0.0.nupkg"
-    },
-    {
-        "type": "file",
         "url": "https://api.nuget.org/v3-flatcontainer/system.net.http.winhttphandler/8.0.0/system.net.http.winhttphandler.8.0.0.nupkg",
         "sha512": "2ab77440a3fb4494cbe109e66c211700d1439156c1b6bfd856457eb8e9d56bf829d466be489ad0545bc5b5012e70c73a7cc41156d9f50e4f4550e6c817890972",
         "dest": "nuget-sources",
@@ -446,13 +411,6 @@
         "sha512": "9303ea0efe2b4b1782bbeb87ce88469e7dbde14ad441f153d2d79a518f7fe8aec76f6407d69b726a0383f1f272232c833fd79421f7ba56dfda110f45deb48b72",
         "dest": "nuget-sources",
         "dest-filename": "system.reactive.6.0.0.nupkg"
-    },
-    {
-        "type": "file",
-        "url": "https://api.nuget.org/v3-flatcontainer/system.reactive/6.0.1/system.reactive.6.0.1.nupkg",
-        "sha512": "5b7af637b4a167f66a29cb96f3339bc8bb1f1cd279b5cb5ff9579d8a56e8e6747c6231580a83e8c905999e82586c01fde00f2f4f3826cb0c11d2933a074977f4",
-        "dest": "nuget-sources",
-        "dest-filename": "system.reactive.6.0.1.nupkg"
     },
     {
         "type": "file",
