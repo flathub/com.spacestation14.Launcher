@@ -67,7 +67,7 @@ modules:
   - name: icon-file
     buildsystem: simple
     build-commands:
-      - install -Dm644 icon-solo.svg /app/share/icons/hicolor/scalable/apps/com.spacestation14.Launcher.svg
+      - install -Dm644 logo-solo.svg /app/share/icons/hicolor/scalable/apps/com.spacestation14.Launcher.svg
     sources:
       - type: git
         url: https://github.com/space-wizards/asset-dump.git
