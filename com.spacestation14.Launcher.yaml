@@ -47,6 +47,10 @@ modules:
       - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Launcher/bin/Release/net10.0/$(./rid.sh)/publish/* ${FLATPAK_DEST}/bin
       - mkdir -p ${FLATPAK_DEST}/bin/loader
       - cp -r ${FLATPAK_BUILDER_BUILDDIR}/SS14.Loader/bin/Release/net10.0/$(./rid.sh)/publish/* ${FLATPAK_DEST}/bin/loader
+      # Upstream's desktop file is only bundled by its publish script, so
+      # install it ourselves and point it at the Flatpak icon and wrapper.
+      - install -Dm644 PublishFiles/SS14.desktop ${FLATPAK_DEST}/share/applications/com.spacestation14.Launcher.desktop
+      - sed -i -e 's/^Icon=.*/Icon=com.spacestation14.Launcher/' -e 's/^Exec=.*/Exec=wrapper.sh %u/' ${FLATPAK_DEST}/share/applications/com.spacestation14.Launcher.desktop
     sources:
       - type: git
         url: https://github.com/space-wizards/SS14.Launcher.git
@@ -63,23 +67,18 @@ modules:
   - name: icon-file
     buildsystem: simple
     build-commands:
-      - install -Dm644 icon-new.svg /app/share/icons/hicolor/scalable/apps/com.spacestation14.Launcher.svg
+      - install -Dm644 logo-solo.svg /app/share/icons/hicolor/scalable/apps/com.spacestation14.Launcher.svg
     sources:
       - type: git
         url: https://github.com/space-wizards/asset-dump.git
-        commit: 5ffb49a2f4f3e6805a0b7bef31247eedebfe1043
+        commit: d5389670127f7c9ee3cbf825dc4fcc2456e6c585
 
   - name: extra-data
     buildsystem: simple
     build-commands:
-      - install -Dm644 com.spacestation14.Launcher.desktop -t /app/share/applications
       - install -Dm644 com.spacestation14.Launcher.appdata.xml -t /app/share/metainfo
       - install -Dm755 wrapper.sh -t ${FLATPAK_DEST}/bin
     sources:
-      # The upstream project does not include a desktop file. Instead, we
-      # write one from scratch.
-      - type: file
-        path: data/com.spacestation14.Launcher.desktop
       # The upstream project does not include an appdata.xml file. Instead, we
       # write one from scratch.
       - type: file
