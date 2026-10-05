@@ -80,6 +80,25 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="0.40.2" date="2026-10-05">
+            <description>
+                <ul>
+                    <li>Fixed lag in the server list.</li>
+                    <li>Fixed a crash when typing the ´ character in a text field on Linux/X11 with the Steam overlay injected.</li>
+                    <li>Disabled the in-launcher password reset.</li>
+                    <li>Improved the version check that can disable outdated launcher versions.</li>
+                    <li>Using the auth override on release builds now shows a warning at login.</li>
+                    <li>New launcher logo.</li>
+                    <li>Language names in the filters are now automatically capitalized.</li>
+                    <li>Clearer error messages when no engine or module exists for the platform.</li>
+                    <li>Fixed pipes not closing files correctly, and a null reference bug.</li>
+                    <li>Increased launcher logging, and exceptions are now logged on crash.</li>
+                    <li>Updated native libraries to 0.2.5.</li>
+                    <li>Updated the desktop entry.</li>
+                    <li>Removed ReactiveUI and the unused in-launcher registration (internal cleanup).</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.37.1" date="2026-01-27">
             <description>
                 <ul>

@@ -50,8 +50,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/space-wizards/SS14.Launcher.git
-        tag: v0.37.1
-        commit: 7ceb70afb6cf15ca6dddffdd1a47757ed68399d1
+        tag: v0.40.2
+        commit: bb05a4023e3b939a8d5b8d6a0c5a877b48c5dde7
 
       - sources/space-station-14-launcher-nuget-sources.json
       - sources/space-station-14-loader-nuget-sources.json
