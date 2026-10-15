@@ -80,6 +80,14 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="0.40.3" date="2026-10-15">
+            <description>
+                <ul>
+                    <li>Fixed modules not properly invalid after being marked invalid.</li>
+                    <li>Delete engines button now properly clears modules.</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.40.2" date="2026-10-05">
             <description>
                 <ul>
