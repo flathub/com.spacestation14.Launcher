@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/env bash
 
 echo "Setting up RPC..."
 
@@ -8,4 +8,4 @@ done
 
 echo "RPC set up! Launching game."
 
-exec SS14.Launcher $@
+exec SS14.Launcher "$@"

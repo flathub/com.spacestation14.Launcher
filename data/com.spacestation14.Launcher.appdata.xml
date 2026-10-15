@@ -16,7 +16,6 @@
     <developer id="com.spacestation14">
         <name>Space Wizards Federation</name>
     </developer>
-    <launchable type="desktop-id">com.spacestation14.Launcher.desktop</launchable>
     <content_rating type="oars-1.1">
         <content_attribute id="violence-cartoon">intense</content_attribute>
         <content_attribute id="violence-bloodshed">moderate</content_attribute>
