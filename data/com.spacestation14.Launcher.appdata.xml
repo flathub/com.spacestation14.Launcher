@@ -79,6 +79,13 @@
         </screenshot>
     </screenshots>
     <releases>
+        <release version="0.40.4" date="2026-10-28">
+            <description>
+                <ul>
+                    <li>Fixed access denied errors related to using incorrect PIDs</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.40.3" date="2026-10-15">
             <description>
                 <ul>
