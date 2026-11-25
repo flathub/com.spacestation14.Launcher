@@ -50,6 +50,7 @@ modules:
       # install it ourselves and point it at the Flatpak icon and wrapper.
       - install -Dm644 PublishFiles/SS14.desktop ${FLATPAK_DEST}/share/applications/com.spacestation14.Launcher.desktop
       - sed -i -e 's/^Icon=.*/Icon=com.spacestation14.Launcher/' -e 's/^Exec=.*/Exec=wrapper.sh %u/' ${FLATPAK_DEST}/share/applications/com.spacestation14.Launcher.desktop
+      - install -Dm644 logo-solo.svg /app/share/icons/hicolor/scalable/apps/com.spacestation14.Launcher.svg
     sources:
       - type: git
         url: https://github.com/space-wizards/SS14.Launcher.git
@@ -63,14 +64,9 @@ modules:
 
     # The SS14.Launcher project does not include an SVG icon file, but one is
     # available in the asset-dump repository.
-  - name: icon-file
-    buildsystem: simple
-    build-commands:
-      - install -Dm644 logo-solo.svg /app/share/icons/hicolor/scalable/apps/com.spacestation14.Launcher.svg
-    sources:
-      - type: git
-        url: https://github.com/space-wizards/asset-dump.git
-        commit: d5389670127f7c9ee3cbf825dc4fcc2456e6c585
+      - type: file
+        url: https://raw.githubusercontent.com/space-wizards/asset-dump/refs/heads/master/logo-solo.svg
+        sha256: 2e569ed4bdae98f79002635f06b96852e69bd34799d7071c4067e802a15a15fb
 
   - name: extra-data
     buildsystem: simple
